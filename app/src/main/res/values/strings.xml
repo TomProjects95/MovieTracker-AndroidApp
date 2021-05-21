@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Media Tracker</string>
+
+    <string name="Trending_name">Trending</string>
+    <string name="movies_name">Movies</string>
+    <string name="tvshows_name">TV Shows</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text_search">Search</string>
+    <string name="Feedback_button">Give Feedback</string>
+
+    <string name="preference_file_key">com.agiledev.agiledevapp.sharedprefs</string>
+    <string name="prefs_loggedin_boolean">loggedIn</string>
+    <string name="prefs_loggedin_username">loggedInUsername</string>
+
+    <string name="nav_loggedin_as">Logged in as: %1$s</string>
+     <string name ="empty_string">%1$s</string>
+
+
+    <string name="poster_of_movie">Poster of movie.</string>
+    <string name="movie_card_released">Released: %1$s</string>
+    <string name="nav_tracked">Tracked</string>
+    <string name="nav_about">About</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_movies">Movies</string>
+    <string name="nav_item_tv_shows">TV Shows</string>
+    <string name="nav_item_help">Help</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_log_out">Log Out</string>
+    <string name="logout_caps">LOGOUT</string>
+    <string name="credit"><b><u>Credit</u></b></string>
+    <string name="Issue_button">Report Issue</string>
+    <string name="firebase_desc">clickable image for firebase</string>
+    <string name="tmdb_desc">clickable image for tmdb</string>
+    <string name="hint">Message</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="issue_text">Please explain the issue you are experiencing.</string>
+    <string name="feedback_text">Please give us feedback on how we can Improve.</string>
+    <string name="dev_title"><b><u>Developers</u></b></string>
+    <string name="dev_names">Stuart - Lead Dev \nTom \nJordan \nJakub</string>
+    <string name="about_text">This app is used to track movies and TV shows that you watch.
+        Allowing you to see information about the cast/crew/director etc. When you search for a movie,
+        you can watch the movies trailer and see the plot of it.
+        once you have some TV shows saved you can get notifications about upcoming episodes of those TV shows when they air.
+        You can also see movie recommendations based on the movies and TV shows you have watch/saved in the app.
+    </string>
+    <string name="tmdb_text">We use The Movie Database (TMDb) for our API to get all of the movie and TV show data needed.
+        This lets us display all information about a movie/tv show that the user may want to see.</string>
+    <string name="firebase_text">To store all of our users details, data, and what they have tracked we use Firebase.
+        We encryted users passwords and do not share their information with any third parties.</string>
+    <string name="poster_icon_base_url_small">http://image.tmdb.org/t/p/w92/</string>
+    <string name="poster_icon_base_url">http://image.tmdb.org/t/p/w154/</string>
+    <string name="poster_icon_base_url_large">http://image.tmdb.org/t/p/w500/</string>
+    <string name="plot_overview"><u><b>Plot Overview</b></u></string>
+    <string name="genres"><u><b>Genres</b></u></string>
+    <string name="cast"><u><b>Cast</b></u></string>
+    <string name="seasons"><u><b>Seasons</b></u></string>
+    <string name="episodes"><u><b>Episodes</b></u></string>
+    <string name="view_more">View More</string>
+    <string name="born">Born -</string>
+    <string name="change_avatar">Change Avatar</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="skip">Skip</string>
+    <string name="confirm">confirm</string>
+    <string name="release_date">Release Date:</string>
+    <string name="first_released">First Episode:</string>
+    <string name="initial_release">Initial Release Date:</string>
+    <string name="latest_episode">Latest Episode:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="nextep">Next Episode:</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_help">activity_help</string>
+
+    <string name="About"><b><u>About</u></b></string>
+    <string name="biography"><u>Biography</u></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+
+    <string name="recently_watched">Recently Watched</string>
+    <string name="recommended_because_watched">Recommended because you watched: %1$s</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="Movies_name">Movies</string>
+    <string name="nav_item_profile">Profile</string>
+
+    <string name="joined">Joined:</string>
+    <string name="usernameAlt">Username:</string>
+    <string name="no_of_episodes">No. of Episodes:</string>
+    <string name="popular_in_your_region">Popular in your region</string>
+</resources>

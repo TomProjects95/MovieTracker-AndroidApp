@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+    <EditText
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:id="@android:id/edit"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorAccent"
+
+        android:textAllCaps="true"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/submitButton0"-->
+        <!--android:layout_width="145dp"-->
+        <!--android:layout_height="65dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Submit"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/editPassword1" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/cancelButton0"-->
+        <!--android:layout_width="145dp"-->
+        <!--android:layout_height="65dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Cancel"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/editPassword1" />-->
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/nav_item_home"
+        android:checkable="true" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_circle"
+        android:title="@string/nav_item_profile"
+        android:checkable="true" />
+
+    <group>
+        <item android:title="@string/nav_tracked">
+            <menu>
+                <item
+                    android:id="@+id/nav_movies"
+                    android:icon="@drawable/ic_menu_movies"
+                    android:title="@string/nav_item_movies"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/nav_tv"
+                    android:icon="@drawable/ic_menu_tv"
+                    android:title="@string/nav_item_tv_shows"
+                    android:checkable="true" />
+            </menu>
+        </item>
+    </group>
+
+    <group>
+        <item android:title="@string/nav_about">
+            <menu>
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_menu_help"
+                    android:title="@string/nav_item_help"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_menu_settings"
+                    android:title="@string/nav_item_settings"
+                    android:checkable="true" />
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/registerlayout">
+    <LinearLayout
+        tools:ignore="UselessParent"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp">
+        <EditText
+            android:id="@+id/txtNewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/roundedtextbox"
+            android:gravity="center"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/darker_gray" />
+        <EditText
+            android:id="@+id/txtNewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/roundedtextbox"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/darker_gray" />
+        <EditText
+            android:id="@+id/txtNewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/roundedtextbox"
+            android:gravity="center"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/darker_gray" />
+        <EditText
+            android:id="@+id/txtNewDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/roundedtextbox"
+            android:gravity="center"
+            android:hint="@string/date_of_birth"
+            android:inputType="date"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/darker_gray"
+            android:longClickable="false"
+            android:focusable="false"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/register"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+</LinearLayout>
